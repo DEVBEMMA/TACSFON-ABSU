@@ -220,7 +220,7 @@ header .container {
 .hero {
   height: 100vh;
   min-height: 500px; /* Ensure minimum height for small screens */
-  background-image: url("assets/images/events (9).jpg");
+  background-image: url("../images/events (9).jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -569,7 +569,7 @@ header .container {
 .scrolling-section {
   position: relative;
   height: 300px;
-  background-image: url("assets/images/events (6).jpg");
+  background-image: url("../images/events (6).jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1059,7 +1059,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 825px) {
   .nav-links {
     position: fixed;
     top: 70px;
@@ -1237,6 +1237,10 @@ footer {
   .hero-content h1 {
     font-size: 1.8rem;
   }
+  .nav-icon {
+    max-height: 20px;
+    max-width: auto;
+  }
   
   .hero-content h2 {
     font-size: 1rem;
@@ -1327,6 +1331,10 @@ footer {
   /* Galaxy S9, Note II, S III fixes */
   .hero-content {
     padding-top: 70px;
+  }
+  .nav-icon {
+    height: 25px;
+    width: 70px;
   }
   
   .hero-content h1 {

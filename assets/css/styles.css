@@ -599,12 +599,13 @@ header .container {
 .scrolling-text {
   display: flex;
   white-space: nowrap;
-  animation: scrollText 20s linear infinite;
+  animation: scrollText 15s linear infinite;
 }
 
 .scrolling-text span {
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   font-weight: 700;
+  font-family:'Dancing Scripts';
   color: white;
   margin-right: 50px;
   text-transform: uppercase;
@@ -640,6 +641,7 @@ header .container {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  color: #006400;
 }
 
 .cta .btn {
@@ -651,6 +653,8 @@ header .container {
 .cta .btn:hover {
   background-color: white;
   color: #006400;
+
+  border-color:green;
 }
 
 /* Contact Section */
